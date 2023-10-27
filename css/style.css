@@ -77,10 +77,6 @@ main {
   padding: 160px 15% 120px;
 }
 .hero {
-  /* display: grid;
-  grid-template-columns: (2, 1fr);
-  align-items: center;
-  gap: 1.5rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,7 +123,8 @@ main {
 
 .btn-border{
 border: 1px solid #f9faf8;
-/* margin-left: 200px; */
+font-size: 1.2rem
+
 }
 .header.sticky {
   background: #1f2937;
@@ -167,6 +164,7 @@ border: 1px solid #f9faf8;
 font-size: 18px;
 color: #1f2937;
 padding: 20px 40px;
+text-align: center;
 }
 .box-img{
   width: 260px;
@@ -181,12 +179,25 @@ padding: 20px 40px;
 }
 .quote {
   background-color: #e5e7eb;
-
+  display: inline-block;
+  width: 100%;
 }
 .quote p {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  text-align: center;
+}
+.quote div {
+  margin: 100px 15%; 
+}
+.autor {
+color: #1f2937;
+font-size: 18px;
+font-weight: 800;
+float: right;
+padding-right: 10%;
+
 }
 .cta {
   background: #3882f6;
@@ -198,12 +209,23 @@ padding: 20px 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
+  
 }
 .cta h4 {
   color: #f9faf8;
 }
 .cta p {
   color: #f9faf8;
+  margin-top: 5px;
 }
-
+footer{
+  width: 100%;
+  top: 0;
+  right: 0;
+  padding: 30px 15%;
+  background-color: #1f2937;
+  text-align: center;
+}
+footer span {
+  color: #f9faf8;
+}
